@@ -37,5 +37,9 @@ public class HomePage<WebElements> {
 		userLink.click();
 		logoutLink.click();
 	}
+
+	public void getTextOfBtn(){
+		logoutLink.getText();
+	}
 	
 }
