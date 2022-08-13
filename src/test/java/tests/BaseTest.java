@@ -11,6 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	
+//hello mangesh ready code for testing
 	
 	public static WebDriver driver;
 	
