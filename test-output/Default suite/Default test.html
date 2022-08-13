@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Test</title>
+<title>TestNG:  Default test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Test</h2><table border='1' align="center">
+<h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/5</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Aug 13 15:03:40 IST 2022</td>
+<td>Started on:</td><td>Sat Aug 13 15:11:42 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (128 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (115 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -81,8 +81,27 @@ function toggleAllBoxes() {
 	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:149)
 	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
 	at tests.BaseTest.init(BaseTest.java:39)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1882349076", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1882349076'><pre>java.lang.NullPointerException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:372)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace20049680", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace20049680'><pre>java.lang.NullPointerException
 	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:149)
 	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
 	at tests.BaseTest.init(BaseTest.java:39)
@@ -106,8 +125,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>17</td>
-<td>tests.LoginTest@34123d65</td></tr>
+<td>4</td>
+<td>tests.LoginTest@77888435</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -118,15 +137,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.HomePageTest.initObject()'><b>initObject</b><br>Test class: tests.HomePageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.HomePageTest@33d512c1</td></tr>
-<tr>
 <td title='tests.LoginTest.initObject()'><b>initObject</b><br>Test class: tests.LoginTest</td>
 <td></td>
 <td>0</td>
-<td>tests.LoginTest@34123d65</td></tr>
+<td>tests.LoginTest@77888435</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -137,13 +151,32 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.HomePageTest.logout()'><b>logout</b><br>Test class: tests.HomePageTest</td>
+<td title='tests.LoginTest.verifybuttontext()'><b>verifybuttontext</b><br>Test class: tests.LoginTest</td>
 <td><div><pre>java.lang.NullPointerException
 	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:149)
 	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
 	at tests.BaseTest.init(BaseTest.java:39)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1002406942", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1002406942'><pre>java.lang.NullPointerException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:372)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1529303412", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1529303412'><pre>java.lang.NullPointerException
 	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:149)
 	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
 	at tests.BaseTest.init(BaseTest.java:39)
@@ -168,48 +201,34 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>tests.HomePageTest@33d512c1</td></tr>
-<tr>
-<td title='tests.HomePageTest.verifyTitle()'><b>verifyTitle</b><br>Test class: tests.HomePageTest</td>
-<td><div><pre>java.lang.NullPointerException
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:149)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
-	at tests.BaseTest.init(BaseTest.java:39)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1326413897", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1326413897'><pre>java.lang.NullPointerException
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:149)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
-	at tests.BaseTest.init(BaseTest.java:39)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:372)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>tests.HomePageTest@33d512c1</td></tr>
+<td>tests.LoginTest@77888435</td></tr>
 <tr>
 <td title='tests.LoginTest.login()'><b>login</b><br>Test class: tests.LoginTest</td>
 <td><div><pre>java.lang.NullPointerException
 	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:149)
 	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
 	at tests.BaseTest.init(BaseTest.java:39)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1758962399", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1758962399'><pre>java.lang.NullPointerException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:372)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1906128360", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1906128360'><pre>java.lang.NullPointerException
 	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:149)
 	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
 	at tests.BaseTest.init(BaseTest.java:39)
@@ -234,73 +253,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>tests.LoginTest@34123d65</td></tr>
-<tr>
-<td title='tests.HomePageTest.goToTab()'><b>goToTab</b><br>Test class: tests.HomePageTest</td>
-<td><div><pre>java.lang.NullPointerException
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:149)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
-	at tests.BaseTest.init(BaseTest.java:39)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace65894433", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace65894433'><pre>java.lang.NullPointerException
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:149)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
-	at tests.BaseTest.init(BaseTest.java:39)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:372)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>tests.HomePageTest@33d512c1</td></tr>
-<tr>
-<td title='tests.LoginTest.verifybuttontext()'><b>verifybuttontext</b><br>Test class: tests.LoginTest</td>
-<td><div><pre>java.lang.NullPointerException
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:149)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
-	at tests.BaseTest.init(BaseTest.java:39)
-... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace662409124", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace662409124'><pre>java.lang.NullPointerException
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:149)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
-	at tests.BaseTest.init(BaseTest.java:39)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:372)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>tests.LoginTest@34123d65</td></tr>
+<td>tests.LoginTest@77888435</td></tr>
 </table><p>
 </body>
 </html>
