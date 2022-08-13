@@ -31,7 +31,7 @@ public class LoginTest extends BaseTest {
 	@Test (priority=1)
 	public void verifybuttontext() {
 		
-		sa.assertEquals(lp.buttonText(), "LOGINNN");
+		sa.assertEquals(lp.buttonText(), "");
 		sa.assertAll();
 	}
 	
