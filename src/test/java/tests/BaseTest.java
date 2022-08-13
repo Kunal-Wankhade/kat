@@ -19,7 +19,7 @@ public class BaseTest {
 	public static WebDriver driver;
 	public Properties prop;
 	public FileInputStream fis;
-	String path=System.getProperty("C:\\Users\\admin\\Desktop\\Katraj-velo-repos\\kat\\src\\test\\resources\\config.properties");
+	String path=System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties";
 	
 	@BeforeSuite
 	public void init() throws IOException {

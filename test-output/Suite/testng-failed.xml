@@ -6,22 +6,11 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.HomePageTest">
-        <methods>
-          <include name="initObject"/>
-          <include name="logout"/>
-          <include name="goToTab"/>
-          <include name="init"/>
-          <include name="verifyTitle"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- tests.HomePageTest -->
       <class name="tests.LoginTest">
         <methods>
           <include name="initObject"/>
           <include name="verifybuttontext"/>
           <include name="init"/>
-          <include name="login"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- tests.LoginTest -->
